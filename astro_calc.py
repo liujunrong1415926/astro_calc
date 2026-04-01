@@ -85,7 +85,7 @@ def TS_calc(TS=None, sig=None, confidence=None, df=2):
 # =========================
 st.set_page_config(page_title="Astro Calculator", layout="centered")
 st.title("Astro Calculator")
-st.write("把你的 Python 计算封装成一个本地网页工具。")
+# st.write("把你的 Python 计算封装成一个本地网页工具。")
 
 tab1, tab2, tab3 = st.tabs([
     "z → dL",
